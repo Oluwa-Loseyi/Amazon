@@ -1,0 +1,56 @@
+.moni-one{
+    display: flex;
+    gap: 10px;
+    margin-left: 1cm;
+    color: blue;
+}
+body{
+    background-color: cadetblue;
+}
+.mail{
+    color: white;
+    margin-top: 1cm;
+    text-align: center  ;
+    margin-top: 4cm;
+    
+}
+.moni-two{
+    width: 25px;
+    height: 1cm;
+    margin-top: 5px;
+}
+.moni-three{
+    background-color: #8989e5;
+    color: white;
+    width: 8.2cm; 
+    height: 1cm;
+    margin-top: 1cm;
+}
+.moni-four{
+    margin-top: 1cm;
+}
+.moni-five{
+    margin-top: 1cm;
+}
+.money{
+    display: flex;
+    gap: 25px;
+}
+.line{
+    display: flex;
+}
+.new{
+    display: flex;
+    gap: 20px;
+}
+.spread{
+    display: flex;
+    gap: 1cm;
+    color: red;
+    font-size: 30px;
+    margin-left: 2cm;
+}
+.will{
+    margin-left: 16cm;
+    
+}

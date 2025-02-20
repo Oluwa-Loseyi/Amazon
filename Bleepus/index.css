@@ -1,0 +1,331 @@
+/** @format */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav {
+  display: flex;
+  gap: 2cm;
+  margin-left: 8cm;
+  margin-top: -1cm;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+}
+.nav-link :hover {
+  color: aqua;
+}
+.container-fluid {
+  margin-left: 1.5cm;
+}
+.able {
+  position: relative;
+}
+.able a::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  right: 8px;
+  top: 30px;
+  height: 3px;
+  background-color: rgb(27, 209, 140);
+  width: 3cm;
+}
+.ablet {
+  margin-top: 3cm;
+  margin-left: 2cm;
+}
+.able-two {
+  font-size: 40px;
+}
+.able-three {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.able-four {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.cashier {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 4cm;
+}
+.able-five {
+  display: flex;
+  gap: 3cm;
+}
+.able-six {
+  margin-top: 3cm;
+  margin-left: -1.5cm;
+}
+.able-seven {
+  background-color: rgb(0, 130, 87);
+  padding-left: 1cm;
+  margin-left: 1cm;
+  border-radius: 20px;
+}
+.able-eight {
+  background-color: rgb(14, 169, 117);
+  padding-left: 1cm;
+  height: 6cm;
+  margin-left: -1.5cm;
+  border-radius: 20px;
+}
+.able-nine {
+  background-color: rgb(22, 156, 111);
+  padding-left: 1cm;
+  height: 6cm;
+  margin-left: -1.5cm;
+  border-radius: 20px;
+}
+.able-ten {
+  display: flex;
+  gap: 2cm;
+  color: white;
+}
+.cash {
+  font-size: 25px;
+  padding: 18px;
+  margin-left: -10px;
+}
+.cash-one {
+  font-size: 22px;
+  padding: 10px;
+  margin-top: -25px;
+  padding-left: 10px;
+}
+.cash-two {
+  background-color: rgb(22, 156, 111);
+  color: white;
+  padding-left: 1cm;
+  height: 8cm;
+  margin-left: 5cm;
+  margin-top: 3cm;
+  padding-top: 2cm;
+}
+.cash-three {
+  display: flex;
+  gap: 2cm;
+  margin-top: 3cm;
+  margin-left: -4cm;
+}
+.cash-four {
+  margin-left: -7cm;
+  padding-left: 2cm;
+}
+.cash-five {
+  font-size: 27px;
+  padding-right: 3cm;
+}
+.cash-six {
+  background-color: rgb(245, 235, 219);
+}
+.cash-seven {
+  text-align: center;
+}
+.cash-eight {
+  font-weight: 300%;
+  padding-top: 30px;
+}
+.cash-nine {
+  font-weight: 200%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.cash-ten {
+  background-color: rgb(205, 214, 205);
+  text-align: center;
+  padding-top: 3cm;
+  margin-left: 6cm;
+  margin-right: 4cm;
+  width: 21cm;
+}
+.peller {
+  display: flex;
+  gap: 20px;
+  margin-top: 1cm;
+  margin-left: 8cm;
+  padding-bottom: 1.5cm;
+}
+.zeez {
+  background-color: antiquewhite;
+}
+.yes {
+  text-align: center;
+  padding-top: 2cm;
+}
+.yes-one {
+  font-size: 30px;
+}
+.plan {
+  background-color: rgb(14, 169, 117);
+  display: inline-block;
+}
+.plan-one {
+  display: flex;
+  gap: 20px;
+}
+.plan-two {
+  background-color: white;
+  position: relative;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 30px;
+  right: 5px;
+  padding-bottom: 3cm;
+  margin-bottom: 20px;
+}
+.plan-three {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.yes-two {
+  /* border-top: solid 1px green; */
+  /* color: rgb(14, 169, 117); ; */
+  margin-top: 10px;
+}
+.mother {
+  display: flex;
+  gap: 20px;
+}
+.yes-three {
+  border-top: 40%;
+}
+.yes-four {
+  display: flex;
+  gap: 14cm;
+  margin-left: 2cm;
+  margin-top: 3cm;
+}
+.yes-five {
+  display: flex;
+  gap: 2cm;
+}
+.yes-six {
+  display: flex;
+  gap: 12cm;
+}
+.yes-seven {
+  margin-top: 2cm;
+  margin-left: 2cm;
+}
+.yes-eight {
+  display: flex;
+  gap: 20px;
+  margin-left: 2cm;
+  margin-top: 1cm;
+}
+.men :hover {
+  color: aqua;
+}
+.hazard {
+  background-color: green;
+  margin-top: 2cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+.eden {
+  text-align: center;
+}
+footer {
+  border-top: 3px solid green;
+  margin-top: 4cm;
+}
+/* body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+} */
+
+.slider {
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+  border-radius: 1em;
+  /* width: 800px; */
+  height: 500px;
+  /* box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5); */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.img-container {
+  display: flex;
+  transition: transform 300ms ease-in-out;
+}
+
+.fa-solid {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  opacity: 0.75;
+  transition: opacity 100ms ease-in-out;
+  z-index: 100;
+}
+
+.fa-solid:hover {
+  opacity: 1;
+}
+
+.previous {
+  left: 4.5rem;
+}
+
+.next {
+  right: 4.5rem;
+}
+@media (max-width: 390px) {
+  .able-five {
+    display: block;
+    padding: 30px 5%;
+  
+  }
+  .able-six img {
+    width: 420px;
+  }
+  .able-two {
+    width: 100%;
+    font-size: 20px;
+    margin-top: -3cm;
+    margin-left: -1cm;
+  }
+  .able-three {
+    margin-left: -1cm;
+  }
+  .able-four {
+    margin-left: -1cm;
+    display: grid;
+  }
+  .able-ten {
+    display: grid;
+    width: 10cm;
+  }
+  .able-eight {
+    margin-left: 1cm;
+  }
+  .able-nine {
+    margin-left: 1cm;
+  }
+  .cash-three {
+    display: grid;
+    /* padding: 5px; */
+    font-size: 10px;
+    margin-top: -1cm;
+  }
+  .cashier {
+    display: grid;
+  }
+  .cash-four {
+    margin-left: -1cm;
+    /* margin-top: 3cm; */
+  }
+  .cash-five {
+    font-size: 15px;
+  }
+}

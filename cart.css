@@ -1,0 +1,274 @@
+/** @format */
+
+body {
+  background-color: #e3e7e8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  transition: 0.5s;
+  margin-left: 200px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  margin-top: 50px;
+}
+.shop-name {
+  margin-left: 3cm;
+  margin-top: 1cm;
+}
+.shopping {
+  margin-top: 1.2cm;
+}
+header.shopping {
+  position: relative;
+  text-align: right;
+}
+
+header .shopping img {
+  width: 40px;
+}
+
+header .shopping span {
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 1px;
+  padding: 3px 10px;
+  margin-top: 2cm;
+  /* margin-left: 1cm; */
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 10px;
+}
+.cards {
+  /* position: fixed; */
+  top: 10%;
+  left: 100%;
+  /* right: 50%; */
+  width: 400px;
+  background-color: #453e3b;
+  height: 81.5vh;
+  transition: 0.5s;
+  margin-left: 2.7cm;
+  position: fixed;
+  /* position: sticky; */
+}
+.cards h1 {
+  color: #e88c0e;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.cards .checkout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cards .checkout div {
+  background-color: #e88c0e;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -3.5 cm;
+}
+.cards .checkout div:nth-child(2) {
+  background-color: #1c1f25;
+  color: #fff;
+}
+.active .cards {
+  left: calc(100% - 500px);
+}
+.active .container {
+  transform: translateX(-200px);
+}
+.list .item {
+  text-align: center;
+  background-color: #dce0e1;
+  padding: 20px;
+  box-shadow: 0 10px 10px #757676;
+  letter-spacing: 1px;
+}
+
+.list .item img {
+  width: 70%;
+}
+.list .item .title {
+  font-weight: 600;
+}
+
+.list .item .price {
+  margin: 10px;
+}
+.list .item button {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+}
+.list .item button:hover {
+  background-color: #298ba1;
+  color: white;
+}
+.listCard li {
+  display: grid;
+  grid-template-columns: 100px repeat(3, 1fr);
+  color: #fff;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+.listCard li div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listCard li img {
+  width: 90%;
+}
+.listCard button {
+  width: auto;
+  background-color: #fff5;
+  border: none;
+}
+.listCard .count {
+  margin: 0 10px;
+}
+.item {
+  width: 270px; /* Reduced width */
+  height: auto;
+  /* padding: 10px 5px; */
+  margin-left: 2cm;
+}
+.list {
+  /* column-gap: 5px; */
+  /* row-gap: 5px; */
+  padding: 0% 7%;
+  margin-left: -1.8cm;
+  margin-top: 1cm;
+}
+
+.navbar {
+  background-color: black !important;
+  color: white !important;
+  position: fixed !important;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  margin-top: -1.5cm;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+.amaz-one {
+  margin-left: 20px !important;
+  margin-top: 10px;
+}
+.d-flex {
+  width: 18cm !important;
+  height: 40px !important;
+}
+.form-control {
+  margin-left: 10px;
+}
+.d-flex {
+  margin-left: 20px !important;
+}
+.navbar-brand {
+  margin-left: -5cm;
+}
+.btn {
+  background-color: chocolate !important;
+  color: black !important;
+  border: none;
+}
+.nav-link {
+  font-size: 12px !important;
+  color: white !important;
+}
+.container-fluid {
+  margin-left: 5cm !important;
+  display: flex;
+  gap: 10px !important;
+}
+.usa {
+  display: flex;
+  gap: 5px;
+  margin-left: 5px !important;
+  margin-top: 10px;
+  color: white !important;
+  cursor: pointer;
+}
+.usa a {
+  color: white;
+  text-decoration: none;
+}
+
+.back {
+  background-color: #37475a;
+  color: white;
+  text-align: center;
+  padding: 0.5px;
+  margin-top: 1cm;
+}
+
+footer {
+  background-color: #232f3e;
+  color: white;
+  /* font-size: 18px; */
+}
+.yoo {
+  font-size: 15px;
+}
+.power {
+  display: flex;
+  gap: 3cm;
+  margin-left: 4cm;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+.var {
+  margin-top: 1cm;
+}
+.musa {
+  margin-left: 3cm;
+}
+.wahab {
+  margin-left: 12cm;
+  margin-top: -50px;
+  padding-bottom: 22px;
+}
+.malik {
+  align-items: center;
+}
+#preloader {
+  background: #000 url(./prelo.gif) no-repeat center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+}

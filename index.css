@@ -1,19 +1,27 @@
 /** @format */
 
 .container-fluid {
-  margin-left: 3cm !important;
+  margin-left: 5cm !important;
   display: flex;
-  gap: 1px !important;
+  gap: 10px !important;
 }
 .navbar {
   background-color: black !important;
   color: white !important;
+  position: fixed !important;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
 }
 .amaz-one {
   margin-left: 20px !important;
 }
 .d-flex {
-  width: 12cm !important;
+  width: 18cm !important;
   height: 40px !important;
 }
 .form-control {
@@ -24,6 +32,9 @@
 }
 .navbar-brand {
   margin-left: -5cm;
+}
+.carousel {
+  padding-top: 2cm !important;
 }
 .ayo {
   display: flex;
@@ -47,7 +58,7 @@
   margin-top: -5px;
   margin-left: 8px;
   height: 10cm;
-  width: 8cm;
+  width: 12cm;
   justify-content: center;
 }
 .win {
@@ -58,12 +69,6 @@
   /* margin-top: 5px; */
   margin-left: -18px;
   padding: 40px 40px 40px 40px;
-}
-.game {
-  /* margin-top: 100px;
-    margin-left: 10px;
-    background-color: white;
-    padding: 10px; */
 }
 .items {
   display: flex;
@@ -80,6 +85,10 @@
 }
 .grace {
   margin-left: 30px;
+}
+.usa a {
+  color: white;
+  text-decoration: none;
 }
 .itemi {
   display: flex;
@@ -99,6 +108,7 @@
   margin-left: 5px !important;
   margin-top: 10px;
   color: white !important;
+  cursor: pointer;
 }
 .nav-link {
   font-size: 12px !important;
@@ -110,7 +120,7 @@
 }
 .lox {
   display: flex;
-  gap: 0.5cm;
+  gap: 1cm;
   margin-left: 1cm;
 }
 .box {
@@ -157,14 +167,21 @@
 footer {
   background-color: #232f3e;
   color: white;
+  /* font-size: 18px; */
 }
 .yoo {
   font-size: 15px;
 }
+.deliver {
+  /* margin-left: 20px; */
+}
 .power {
   display: flex;
-  gap: 2cm;
-  margin-left: 1cm;
+  gap: 3cm;
+  margin-left: 4cm;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 50px;
 }
 .var {
   margin-top: 1cm;
@@ -174,5 +191,75 @@ footer {
 }
 .wahab {
   margin-left: 12cm;
-  margin-top: -25px;
+  margin-top: -50px;
+  padding-bottom: 22px;
+}
+.malik {
+  align-items: center;
+}
+
+@media (max-width: 390px) {
+  .carousel-inner {
+    display: block;
+    padding: 20px 2%;
+  }
+  .win {
+    display: inline-block;
+    padding: -2px 2%;
+    padding-left: 20px;
+  }
+  .wini {
+    display: inline-block;
+    padding: 30px 5%;
+  }
+  .game {
+    margin-left: 1cm;
+  }
+  .all {
+    padding-left: -2px 2%;
+  }
+  .lox {
+    display: inline-block;
+    gap: 2cm;
+    padding: 30px 5%;
+    padding-left: 20px;
+  }
+  .seller {
+    margin-top: -1cm;
+  }
+  .victory {
+    display: inline-block;
+    padding: 30px 5%;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  .tao {
+    margin-left: 1cm;
+  }
+  .sodiq {
+    display: inline-block;
+    padding: 30px 5%;
+    margin-left: 20px;
+  }
+  .power {
+    display: inline-block;
+    padding: 30px 5%;
+  }
+  .wahab {
+    display: inline-block;
+    margin-left: 3cm;
+    padding: 30px 5%;
+    margin-top: 20px;
+  }
+  .malik {
+    display: inline-block;
+    padding: 30px 5%;
+  }
+}
+#preloader {
+  background: #000 url(./prelo.gif) no-repeat center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
 }
